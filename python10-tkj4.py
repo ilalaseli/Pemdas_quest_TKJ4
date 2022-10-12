@@ -16,14 +16,43 @@ print("Koleksi data Campuran:", koleksi_data_mix)
 
 # Buatlah 3 kumpulan data: Nama Hewan, Nilai UTS, Nama Teman sebangku kalian
 
-nama_nama_hewan = ("klomang", "rodriguez", "kelinci", "icikiwir")
+nama_hewan = ["klomang", "rodriguez", "kelinci", "icikiwir"]
 
-list_nilai_uts = (80,90,100,95)
+nilai_uts = [80,90,100,95]
 
-nama_teman_sebangku = ("apran hololaip", "rifki kodoksan", "angga stlouis", "ilal belfast")
+teman_sebangku = ["apran hololaip", "rifki kodoksan", "angga stlouis", "ilal belfast"]
 
-print("nama nama hewan:", nama_nama_hewan)
+print("nama nama hewan:", nama_hewan)
 
-print("nilai uts saya:", list_nilai_uts)
+print("nilai uts saya:", nilai_uts)
 
-print("nama teman sebangku:", nama_teman_sebangku)
+print("nama teman sebangku:", teman_sebangku)
+
+# Data ke 2 nama hewan
+
+print("Data ke-2 nama hewan:", nama_hewan[1])
+
+# Data pertama Nilai UTS
+
+print("Data Pertama Nilai UTS:", nilai_uts[0])
+
+# Data terakhir nama teman sebangku
+
+print("Data Terakhir Nama Teman Sebangku:", teman_sebangku[3])
+
+# Tambahkan 1 data disetiap data koleksi
+
+nama_hewan.append("ookami")
+nilai_uts.append(30)
+teman_sebangku.append("shoukaku")
+
+# Ubahlah data terakhir nilai UTS
+
+nilai_uts[-1] = 30
+print(nilai_uts)
+
+# Ubahlah data ke-3 nama hewan
+
+nama_hewan[2] = "shiroko"
+print(nama_hewan)
+
